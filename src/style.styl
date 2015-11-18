@@ -1,10 +1,10 @@
 html, body
+  font-size 18px
   height 100%
   min-height 100%
   margin 0
 
 body
-  //background-color hsl(280, 80%, 30%)
   background url("img/raji.jpg"), hsl(280, 80%, 30%)
   background-position center center
   background-size cover
@@ -41,3 +41,14 @@ body
     border-style solid
     border-width 0 120px 207.8px 120px
     border-color transparent transparent #0fc transparent
+
+
+.a
+  display flex
+  background linear-gradient(red, green);
+
+.rem
+  font-size 2rem
+
+.a::after
+  content: 'foo!'
