@@ -12,6 +12,8 @@ module.exports = {
     'webpack-dev-server/client?http://localhost:8080'
   ],
   output: {
+      //https://webpack.github.io/docs/webpack-dev-server.html
+      //path: path.resolve(__dirname, "public"), //Path to build, public or dist
       publicPath: '/',
       filename: 'main.js'
   },
